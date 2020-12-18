@@ -3,29 +3,7 @@ body {
     font: 400 15px/1.8 Lato, sans-serif;
 }
 
-
-/* Google Fonts */
-
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-/* Global */
-
-
-/* 
-html {
-    min-height: 100%;
-    overflow: hidden;
-}
-
-body {
-    height: calc(100vh - 8em);
-    padding: 4em;
-    color: rgba(255, 255, 255, .75);
-    font-family: 'Anonymous Pro', monospace;
-    background-color: rgb(25, 25, 25);
-}
-*/
-
 .line-1 {
     position: relative;
     top: 50%;
@@ -267,21 +245,16 @@ textarea {
 }
 
 
+/* profile */
+
+
 /*Section Classes*/
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-}
-
-section:nth-child(2n) {
-    background-color: #9e9b9b29;
-}
-
-section:nth-child(2n + 1) {
-    background-color: white;
+    padding: 20px;
 }
 
 .section-heading {
@@ -295,7 +268,6 @@ section:nth-child(2n + 1) {
     color: #2857a4;
     display: inline-block;
     padding-top: 10px;
-    margin-right: 0.5rem;
 }
 
 
@@ -306,28 +278,34 @@ section:nth-child(2n + 1) {
     padding: 10px;
     margin-bottom: 30px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .skill-progress {
-    width: 11rem;
-    height: 2.2rem;
+    width: 170px;
+    height: 40px;
     background-color: lightgrey;
-    border-radius: 1rem;
+    border-radius: 40px;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
     overflow: hidden;
 }
 
 .skill-progress>div {
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 40px 0px 0px 40px;
     box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name {
+    padding-top: 5px;
+    height: 40px;
 }
 
 .skill-name span {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 10px;
     vertical-align: middle;
 }

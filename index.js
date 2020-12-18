@@ -66,23 +66,6 @@ function checkScroll() {
 
     }
 }
-// var i = 0;
-// var txt = 'HI';
-// var speed = 50;
-
-// function typeWriter() {
-//     console.log("hello")
-//     if (i < txt.length) {
-//         $("coverName").innerHTML += txt.charAt(i);
-//         i++;
-//         setTimeout(typeWriter, speed);
-//     }
-// }
-
-// if (i == 0) {
-//     typeWriter();
-// }
-
 
 
 window.addEventListener("scroll", checkScroll);
