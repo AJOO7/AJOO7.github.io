@@ -423,16 +423,17 @@ section {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 50px;
+    padding: 50px;
     margin-bottom: 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .portfolio-image-container {
-    max-width: 300px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     margin: 30px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -458,7 +459,7 @@ section {
 }
 
 .portfolio-image-container:hover .portfolio-details {
-    background-color: #80808078;
+    background-color: #2e2d2d78;
     color: white;
 }
 
