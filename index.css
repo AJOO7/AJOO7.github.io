@@ -10,7 +10,7 @@ body {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, .75);
-    font-size: 180%;
+    font-size: 190%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -236,6 +236,10 @@ textarea {
     color: #ffff;
 }
 
+.coverDesc {
+    font-size: 140%;
+}
+
 
 /* profile */
 
@@ -259,11 +263,11 @@ section {
     width: auto;
     padding: 20px 10px 10px;
     font-weight: 400;
+    font-size: 5rem;
 }
 
 .section-heading span {
-    font-size: 40px;
-    color: #2857a4;
+    color: #22b7da;
     display: inline-block;
     padding-top: 10px;
 }
@@ -313,7 +317,7 @@ section {
 
 .timeline {
     position: relative;
-    width: 80%;
+    width: 95%;
 }
 
 .timeline-box {
@@ -403,13 +407,14 @@ section {
 .experience-company-name {
     margin: 0%;
     font-size: 2rem;
+    margin: 10px 0 10px 10px;
 }
 
 .experience-duration {
     color: #9e9b9b;
     font-weight: 100;
     color: grey;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .experience-description {
@@ -551,4 +556,8 @@ section {
 .fifty-percent {
     height: inherit;
     width: 50%;
+}
+
+.gyan {
+    position: absolute;
 }
