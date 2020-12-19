@@ -323,7 +323,7 @@ section {
     width: 40%;
     min-height: 150px;
     position: relative;
-    left: 5%;
+    left: 6%;
     text-align: right;
 }
 
@@ -333,7 +333,7 @@ section {
     width: 15px;
     height: 15px;
     background-color: lightgrey;
-    top: 25%;
+    top: 15%;
     border-radius: 50%;
     z-index: 1;
 }
@@ -370,7 +370,7 @@ section {
     top: 10%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 48%;
     color: #433E3F;
 }
 
