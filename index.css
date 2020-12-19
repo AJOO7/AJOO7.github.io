@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font: 400 15px/1.8 Lato, sans-serif;
+    font: 400 15px/1.8 sans-serif;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -131,7 +131,6 @@ body {
 }
 
 .modal-header,
-h4,
 .close {
     background-color: #333;
     color: #fff !important;
@@ -148,20 +147,13 @@ h4,
     color: #777;
 }
 
-#googleMap {
-    width: 100%;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
 .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: #2d2d30;
     border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
+    font-size: 1.5rem !important;
+    letter-spacing: 2px;
     opacity: 0.9;
 }
 
@@ -247,6 +239,12 @@ textarea {
 
 /* profile */
 
+#profile {
+    /* height: 100vh;
+    width: 100vw; */
+    padding: 15vh 10vw;
+}
+
 
 /*Section Classes*/
 
@@ -315,16 +313,17 @@ section {
 
 .timeline {
     position: relative;
-    width: 75%;
+    width: 80%;
 }
 
 .timeline-box {
     padding: 5px;
     width: 40%;
-    min-height: 150px;
+    /* min-height: 150px; */
     position: relative;
     left: 6%;
     text-align: right;
+    background-color: #dbf6e9;
 }
 
 .timeline-box::after {
@@ -351,17 +350,23 @@ section {
 }
 
 .timeline-container {
-    padding: 8px;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
 }
 
 .timeline-logo {
-    position: absolute;
-    width: 50px;
+    width: 5vw;
+    height: 10vh;
     overflow: hidden;
 }
 
 .timeline-logo>img {
     width: 100%;
+    height: 100%;
+    border-radius: 30%;
 }
 
 #timeline-divider {
@@ -387,15 +392,17 @@ section {
     color: #2857a4;
 }
 
+.timeline-content {
+    width: 80%;
+}
+
 .experience-designation {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .experience-company-name {
-    margin: 5px 0 0;
-    color: #eb822d;
-    font-weight: 400;
-    font-size: 1.2rem;
+    margin: 0%;
+    font-size: 2rem;
 }
 
 .experience-duration {
@@ -410,10 +417,6 @@ section {
     padding: 2px;
     color: grey;
     line-height: 20px;
-}
-
-.text-align-justify {
-    text-align: justify;
 }
 
 
@@ -443,12 +446,20 @@ section {
     height: 100%;
 }
 
+.project-link {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+
 .portfolio-details {
     transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     color: transparent;
     text-align: center;
     padding: 10px;
