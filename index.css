@@ -21,7 +21,7 @@ body {
 /* Animation */
 
 .anim-typewriter {
-    animation: typewriter 2s steps(15) 0s 1 normal both, blinkTextCursor 500ms steps(15) normal;
+    animation: typewriter 2s steps(20) 0s 1 normal both, blinkTextCursor 500ms steps(20) normal;
 }
 
 @keyframes typewriter {
